@@ -1,0 +1,26 @@
+{
+  "name": "nodesms",
+  "version": "1.0.0",
+  "description": "Send SMS to people to freak them out",
+  "main": "mainserver.js",
+  "scripts": {
+    "start": "nodemon mainserver.js",
+    "babel": "babel",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stainie/NodeSMS.git"
+  },
+  "author": "Stanko Kostic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stainie/NodeSMS/issues"
+  },
+  "homepage": "https://github.com/Stainie/NodeSMS#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
